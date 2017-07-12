@@ -59,8 +59,9 @@
 3. cache-control有哪些值，分别表示什么含义？
 4. url的query解析及RFC的相关定义：
 
-	(1).输入为：http://www.xxx.com/?a=1&b=ab，输出为：{a: 1, b: 'ab'}
-	(2).输入为：http://www.xxx.com/?a=1&b=ab&a=2，输出为：{a: [1, 2], b: 'ab'}
+	* 输入为：http://www.xxx.com/?a=1&b=ab，输出为：{a: 1, b: 'ab'}
+
+	* 输入为：http://www.xxx.com/?a=1&b=ab&a=2，输出为：{a: [1, 2], b: 'ab'}
 
 5. HTTP的method包含哪些？
 6. POST请求与GET请求的差异
