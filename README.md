@@ -21,6 +21,8 @@
 11. CSS选择器权重
 12. CSS选择器与DOM属性的优先级（#id 与 document[id="xx"]二者的优先级高低）
 13. !important与行内样式的优先级
+14. flex布局
+15. justify-content是垂直居中还是水平居中？
 
 ## JavaScript
 
@@ -41,6 +43,12 @@
 13. ES 6箭头函数
 14. ES 6的继承原理
 15. ES 6 Generator
+16. 简述浏览器的GC原理
+17. 浏览器的渲染机制
+18. defer与async的差异
+19. Object.defineProperty
+20. Object.assign
+21. 数组去重
 
 ### React
 
@@ -56,6 +64,7 @@
 1. HTTP状态码
 2. 301、302、304和307的区别
 3. 304状态码是否还会发送请求？
+3. 502状态码的含义及其可能产生原因
 3. cache-control有哪些值，分别表示什么含义？
 4. url的query解析及RFC的相关定义：
 
@@ -65,4 +74,4 @@
 
 5. HTTP的method包含哪些？
 6. POST请求与GET请求的差异
-	
+7. HTTPS如何请求仅支持HTTP的服务器
